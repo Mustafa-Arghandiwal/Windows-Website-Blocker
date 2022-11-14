@@ -1,2 +1,2 @@
 # Windows-Website-Blocker
-A simple website blocker for Windows
+A simple script to block websites in Windows
