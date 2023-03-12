@@ -104,7 +104,7 @@ while True:
             print('Permission Denied - please run CMD as administrator for this to work')
             break
 
-        while True: #its obvious
+        while True: # logic for the case if user wants to block another address
             more = input('Do you want to block another website? (y/n): ')
             if more in ['n', 'N']:
                 print('Thanks for using Windows Website Blocker!')
