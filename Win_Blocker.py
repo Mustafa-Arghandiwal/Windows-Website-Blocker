@@ -71,7 +71,7 @@ unblockList = ['unblock', 'Unblock', 'UNBLOCK']
 while True:
     blockunblock = input('Do you want to block or unblock a previously blocked website? (type block or unblock): ')
     if blockunblock not in blockList and blockunblock not in unblockList:
-        print('Don\'t mess around...(e.g. facebook.com)')
+        print('Don\'t mess around, type block or unblock')
         continue
     else:
         break
